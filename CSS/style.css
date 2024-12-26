@@ -33,7 +33,7 @@ header nav ul li a:hover {
   color: #1bbf00;
 }
 header nav button {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 32px;
   color: #EFF4FA;
@@ -88,7 +88,7 @@ header nav button {
   margin-bottom: 16px;
 }
 #banner .overlay button {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 32px;
   color: #EFF4FA;
@@ -204,7 +204,7 @@ header nav button {
   margin-bottom: 41px;
 }
 #chooseus .content .con__right button {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 32px;
   color: #EFF4FA;
@@ -213,4 +213,11 @@ header nav button {
   border: 2px solid #1bbf00;
   border-radius: 100px;
   text-transform: capitalize;
+  background-color: transparent;
+  color: #726E9E;
+  transition: 0.4s;
+}
+#chooseus .content .con__right button:hover {
+  background-color: #1bbf00;
+  color: #EFF4FA;
 }/*# sourceMappingURL=style.css.map */

@@ -64,7 +64,14 @@
       }
 
       button {
-        @include button
+        @include button ();
+        background-color: transparent;
+        color: #726E9E;
+        transition: .4s;
+        &:hover {
+        background-color: $success;
+        color: $light;
+      }
       }
     }
 
