@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+  // font-family: "Paprika", serif;
+  // font-family: "Open Sans", serif;
+}
+
+.container {
+  max-width: 1170px;
+}
+
+$primary:#6B62C5;
+$success: #1bbf00;
+$light: #EFF4FA;
+
+a {
+  text-decoration: none;
+}
+
+@mixin button {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  color: $light;
+  background-color: $success;
+  padding: 14px 28px;
+  border: 2px solid $success;
+  border-radius: 100px;
+  text-transform: capitalize;
+}

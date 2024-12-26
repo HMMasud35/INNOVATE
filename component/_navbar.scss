@@ -1,0 +1,25 @@
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  nav {
+    background-color:rgba(22, 12, 109, 0.6);
+    padding: 18px 0 !important;
+    ul {
+      gap: 42px;
+      li {
+        a {
+          font-size: 18px;
+          font-weight: 600;
+          color: $light;
+          &:hover {
+            color: $success;
+          }
+        }
+      }
+    }
+    button {
+      @include button;
+    }
+  }
+}

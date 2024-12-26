@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+}
+
+.container {
+  max-width: 1170px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+header nav {
+  background-color: rgba(22, 12, 109, 0.6);
+  padding: 18px 0 !important;
+}
+header nav ul {
+  gap: 42px;
+}
+header nav ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #EFF4FA;
+}
+header nav ul li a:hover {
+  color: #1bbf00;
+}
+header nav button {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #EFF4FA;
+  background-color: #1bbf00;
+  padding: 14px 28px;
+  border: 2px solid #1bbf00;
+  border-radius: 100px;
+  text-transform: capitalize;
+}
+
+#banner {
+  background: url("../Images/bannerimg.jpg") no-repeat center;
+  background-size: cover;
+  height: 960px;
+  position: relative;
+}
+#banner .shapeone {
+  position: absolute;
+  top: 304px;
+  left: 31px;
+}
+#banner .shapetow {
+  position: absolute;
+  bottom: 73px;
+  right: 310px;
+}
+#banner .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(107, 98, 197, 0.8);
+  padding-top: 246px;
+  padding-bottom: 254px;
+}
+#banner .overlay h1 {
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #EFF4FA;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+#banner .overlay p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #E6E5F3;
+  text-align: center;
+  font-family: "Paprika", serif;
+  max-width: 715px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+#banner .overlay button {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #EFF4FA;
+  background-color: #1bbf00;
+  padding: 14px 28px;
+  border: 2px solid #1bbf00;
+  border-radius: 100px;
+  text-transform: capitalize;
+  background-color: transparent;
+}
+#banner .overlay button:hover {
+  background-color: #1bbf00;
+}
+
+#count {
+  width: 100%;
+  height: 704px;
+  padding: 283px 0;
+  position: relative;
+  overflow: hidden;
+}
+#count .count__img {
+  width: 464px;
+  height: 429px;
+  top: 0;
+  right: -145px;
+  position: absolute;
+}
+#count .content {
+  text-align: center;
+}
+#count .content h3 {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 68px;
+  color: #1bbf00;
+  font-family: "Open Sans", serif;
+}
+#count .content p {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #141135;
+  font-family: "Open Sans", serif;
+  position: relative;
+}
+#count .content span {
+  width: 3px;
+  height: 125px;
+  background: rgba(79, 88, 95, 0.3098039216);
+  position: absolute;
+  margin-top: -135px;
+  margin-left: 140px;
+}
+
+#chooseus {
+  max-width: 100%;
+  height: 626px;
+}
+#chooseus .choo__img {
+  position: absolute;
+}
+#chooseus .content {
+  padding-top: 100px;
+  padding-bottom: 91px;
+}
+#chooseus .content .con__left p {
+  margin-left: 70px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #726E9E;
+  font-family: "Paprika", serif;
+  width: 340px;
+}
+#chooseus .content .con__left .con__left--pera {
+  margin-top: 42px;
+  margin-bottom: 64px;
+}
+#chooseus .content .con__left .first {
+  width: 25px;
+  height: 25px;
+  background-color: #1bbf00;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 5px;
+}
+#chooseus .content .con__left .sceond {
+  width: 25px;
+  height: 25px;
+  background-color: #CBC8F0;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+#chooseus .content .con__right {
+  padding-left: 108px;
+}
+#chooseus .content .con__right h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #141135;
+  font-family: "Open Sans", serif;
+  margin-bottom: 9px;
+}
+#chooseus .content .con__right p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #726E9E;
+  font-family: "Paprika", serif;
+  width: 393px;
+  margin-bottom: 41px;
+}
+#chooseus .content .con__right button {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #EFF4FA;
+  background-color: #1bbf00;
+  padding: 14px 28px;
+  border: 2px solid #1bbf00;
+  border-radius: 100px;
+  text-transform: capitalize;
+}/*# sourceMappingURL=style.css.map */
