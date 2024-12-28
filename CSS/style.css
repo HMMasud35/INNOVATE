@@ -336,4 +336,29 @@ header nav button {
 #wedo .item:hover a::after {
   background-color: #ffffff;
   opacity: 30%;
+}
+
+#impact {
+  width: 100%;
+  height: 550px;
+  background-color: bisque;
+}
+#impact .impact__img {
+  position: relative;
+}
+#impact .impact__img .imp__img2 {
+  position: absolute;
+  top: -10px;
+  left: 250px;
+}
+#impact .impact__img .imp__img3 {
+  position: absolute;
+  top: 90px;
+  right: -5px;
+  z-index: 1;
+}
+#impact .impact__img .imp__img4 {
+  position: absolute;
+  top: 155px;
+  right: -45px;
 }/*# sourceMappingURL=style.css.map */
