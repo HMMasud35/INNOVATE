@@ -12,8 +12,15 @@
     right: -145px;
     position: absolute;
   }
+
+  .content__part {
+    border-right: 3px solid #4f585f4f;
+  }
   .content {
     text-align: center;
+    .content__lastpart {
+      border: none;
+    }
     h3 {
       font-size: 64px;
       font-weight: 800;
@@ -29,15 +36,6 @@
       font-family: "Open Sans", serif;
       position: relative;
     }
-
-    span {
-      width: 3px;
-      height: 125px;
-      background: #4f585f4f;
-      position: absolute;
-      margin-top: -135px;
-      margin-left: 140px;
-  }
-    
+  
   }
 }
