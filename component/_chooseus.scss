@@ -2,8 +2,6 @@
   max-width: 100%;
   height: 626px;
   position: relative;
-  background-color: rgba(75, 71, 113, 0.353);
-
  
   .choo__img {
     position: absolute;
@@ -23,9 +21,8 @@
       margin-bottom: 30px;
     
       &:hover {
-        background-color: #f1f0ff;
         padding: 42px 28px;
-        box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.748),
+        box-shadow: -5px -5px 10px rgba(211, 211, 211, 0.748),
                       10px 10px 10px 5px rgba(94, 104, 121, 0.3);
         margin-left: -30px;         
         

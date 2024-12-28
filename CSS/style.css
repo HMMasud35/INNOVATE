@@ -107,6 +107,7 @@ header nav button {
   width: 100%;
   height: 704px;
   padding: 283px 0;
+  background-color: #F9F9FB;
   position: relative;
   overflow: hidden;
 }
@@ -146,7 +147,6 @@ header nav button {
   max-width: 100%;
   height: 626px;
   position: relative;
-  background-color: rgba(75, 71, 113, 0.353);
 }
 #chooseus .choo__img {
   position: absolute;
@@ -165,9 +165,8 @@ header nav button {
   margin-bottom: 30px;
 }
 #chooseus .content .content__left:hover {
-  background-color: #f1f0ff;
   padding: 42px 28px;
-  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.748), 10px 10px 10px 5px rgba(94, 104, 121, 0.3);
+  box-shadow: -5px -5px 10px rgba(211, 211, 211, 0.748), 10px 10px 10px 5px rgba(94, 104, 121, 0.3);
   margin-left: -30px;
 }
 #chooseus .content .content__left .round {
@@ -231,6 +230,7 @@ header nav button {
 #wedo {
   width: 100%;
   padding: 100px 0;
+  background-color: #F6F5FF;
 }
 #wedo .title {
   margin-top: 55px;
@@ -340,25 +340,76 @@ header nav button {
 
 #impact {
   width: 100%;
-  height: 550px;
-  background-color: bisque;
-}
-#impact .impact__img {
+  height: 878px;
+  padding: 100px 0;
   position: relative;
 }
-#impact .impact__img .imp__img2 {
+#impact .impact__element {
   position: absolute;
-  top: -10px;
+  right: 0;
+  bottom: 0;
+}
+#impact .impact__wrapper .imp__title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  color: #141135;
+  text-align: center;
+}
+#impact .impact__wrapper .imp__title p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Paprika", serif;
+  color: #726e9e;
+  width: 558px;
+  margin: 0 auto;
+  margin-top: 23px;
+  margin-bottom: 75px;
+  text-align: center;
+}
+#impact .impact__wrapper .imp__text--part img {
+  width: 63px;
+  height: 63px;
+}
+#impact .impact__wrapper .imp__text--part .imp__text h4 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  font-family: "Open Sans", serif;
+  color: #141135;
+}
+#impact .impact__wrapper .imp__text--part .imp__text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Paprika", serif;
+  color: #726e9e;
+  width: 343px;
+  margin-top: 23px;
+  margin-bottom: 75px;
+}
+#impact .impact__wrapper .impact__img {
+  position: relative;
+}
+#impact .impact__wrapper .impact__img .imp__img1 {
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+#impact .impact__wrapper .impact__img .imp__img2 {
+  position: absolute;
+  top: 20px;
   left: 250px;
 }
-#impact .impact__img .imp__img3 {
+#impact .impact__wrapper .impact__img .imp__img3 {
   position: absolute;
-  top: 90px;
-  right: -5px;
+  top: 65px;
+  right: 55px;
   z-index: 1;
 }
-#impact .impact__img .imp__img4 {
+#impact .impact__wrapper .impact__img .imp__img4 {
   position: absolute;
-  top: 155px;
-  right: -45px;
+  top: 160px;
+  right: 75px;
 }/*# sourceMappingURL=style.css.map */

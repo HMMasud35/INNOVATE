@@ -1,32 +1,95 @@
 #impact {
     width: 100%;
-    height: 550px;
-    background-color: bisque;
+    height: 878px;
+    padding: 100px 0;
+    position: relative;
 
-    .impact__img {
-        position: relative;
-
-        .imp__img2 {
-            position: absolute;
-            top: -10px;
-            left: 250px;
-        }
-
-        .imp__img3 {
-            position: absolute;
-            top: 90px;
-            right: -5px;
-            z-index: 1;
-        }
-
-        .imp__img4 {
-            position: absolute;
-            top: 155px;
-            right: -45px;
-        }
+    .impact__element {
+        position: absolute;
+        right: 0;
+        bottom: 0;
     }
 
-    .imp__analysis {
+    .impact__wrapper {
         
+        .imp__title {
+            h2 {
+                font-size: 48px;
+                font-weight: 700;
+                font-family: "Open Sans", serif;
+                color: #141135;
+                text-align: center;
+            }
+    
+            p {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+                font-family: "Paprika", serif;
+                color: #726e9e;
+                width: 558px;
+                margin: 0 auto;
+                margin-top: 23px;
+                margin-bottom: 75px;
+                text-align: center;
+            }
+        }
+
+        .imp__text--part {
+            img {
+                width: 63px;
+                height: 63px;
+            }
+
+            .imp__text {
+                h4 {
+                    font-size: 30px;
+                    font-weight: 700;
+                    line-height: 36px;
+                    font-family: "Open Sans", serif;
+                    color: #141135;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    font-family: "Paprika", serif;
+                    color: #726e9e;
+                    width: 343px;
+                    margin-top: 23px;
+                    margin-bottom: 75px;
+                }
+            }
+        }
+
+        .impact__img {
+            position: relative;
+
+            .imp__img1 {
+                position: absolute;
+                top: 20px;
+                left: 0;
+            }
+
+            .imp__img2 {
+                position: absolute;
+                top: 20px;
+                left: 250px;
+            }
+
+            .imp__img3 {
+                position: absolute;
+                top: 65px;
+                right: 55px;
+                z-index: 1;
+            }
+
+            .imp__img4 {
+                position: absolute;
+                top: 160px;
+                right: 75px;
+            }
+        }
     }
 }
