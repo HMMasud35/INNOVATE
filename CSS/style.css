@@ -445,7 +445,7 @@ header nav button {
 }
 #plan .plan__wrapper .plan__card .plan__img {
   height: 170px;
-  background-color: rgba(236, 237, 240, 0.8);
+  background-color: rgba(236, 237, 240, 0.25);
 }
 #plan .plan__wrapper .plan__card .plan__body {
   text-align: center;
@@ -476,4 +476,98 @@ header nav button {
 }
 #plan .plan__wrapper .plan__card:hover {
   background-color: #6B62C5;
+}
+#plan .plan__wrapper .plan__card:hover h3 {
+  color: #FAFAFE;
+}
+#plan .plan__wrapper .plan__card:hover P {
+  color: #FAFAFE;
+}
+
+#testimonial {
+  width: 100%;
+  height: 878px;
+  background-color: #F8F8FF;
+  padding: 100px 0;
+}
+#testimonial .test__wrapper h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #141135;
+  font-family: "Open Sans", serif;
+  margin-bottom: 80px;
+  text-align: center;
+}
+#testimonial .test__wrapper .carousel__part .carousel__btnone {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: -100px;
+  background-color: #F8F8FF;
+}
+#testimonial .test__wrapper .carousel__part .carousel__btnone i {
+  font-size: 20px;
+  line-height: 30px;
+  color: #141135;
+  margin: 0 auto;
+}
+#testimonial .test__wrapper .carousel__part .carousel__btntow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 100px;
+  background-color: #F8F8FF;
+}
+#testimonial .test__wrapper .carousel__part .carousel-inner {
+  text-align: center;
+  width: 1080px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+#testimonial .test__wrapper .carousel__part img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  z-index: 1;
+  position: relative;
+}
+#testimonial .test__wrapper .card {
+  margin-top: -120px;
+  width: 1080px;
+  height: 461px;
+  text-align: center;
+  border: none;
+  background-color: #141135;
+  border-radius: 20px;
+}
+#testimonial .test__wrapper .card .favoourites {
+  margin-top: 120px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FF7628;
+  font-family: "Open Sans", serif;
+  margin-bottom: 35px;
+}
+#testimonial .test__wrapper .card p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #726E9E;
+  font-family: "Paprika", serif;
+  margin-bottom: 48px !important;
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+#testimonial .test__wrapper .card h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #221A2c;
+  font-family: "Paprika", serif;
+  margin-bottom: 10px;
+}
+#testimonial .test__wrapper .card h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #726E9E;
+  font-family: "Paprika", serif;
 }/*# sourceMappingURL=style.css.map */

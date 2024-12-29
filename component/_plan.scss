@@ -32,7 +32,7 @@
 
             .plan__img {
                 height: 170px;
-                background-color: rgba(236, 237, 240, 0.8);
+                background-color: rgba(236, 237, 240, 0.25);
             }
 
             .plan__body {
@@ -68,6 +68,12 @@
 
             &:hover {
                 background-color: #6B62C5;
+            }
+            &:hover h3 {
+                color: #FAFAFE;
+            }
+            &:hover P {
+                color: #FAFAFE;
             }
         }
     }
