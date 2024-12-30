@@ -3,8 +3,6 @@
     height: 878px;
     background-color: #F8F8FF;
     padding: 100px 0;
-    // font-family: "Paprika", serif;
-    // font-family: "Open Sans", serif;
 
     .test__wrapper {
         h2 {
@@ -18,28 +16,37 @@
 
         .carousel__part {
             .carousel__btnone {
-                width: 40px;
-                height: 40px;
+                width: 50px;
+                height: 50px;
                 border-radius: 50%;
-                margin-left: -100px;
-                background-color: #F8F8FF;
+                margin-left: -25px;
+                background-color: #141135;
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
 
-                i {
-                    font-size: 20px;
-                    line-height: 30px;
-                    color: #141135;
-                    margin: 0 auto;
-                }
+              
             }
 
             .carousel__btntow {
-                width: 40px;
-                height: 40px;
+                width: 50px;
+                height: 50px;
                 border-radius: 50%;
-                margin-left: 100px;
-                background-color: #F8F8FF;
+                margin-left: 25px;
+                background-color: #141135;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
+
+            i {
+                font-size: 25px;
+                line-height: 30px;
+                color: #FFFFFF;
+                margin: 0 auto;
+            }
+
             .carousel-inner {
                 text-align: center;
                 width: 1080px;
@@ -63,7 +70,7 @@
             height: 461px;
             text-align: center;
             border: none;
-            background-color: #141135;
+            background-color: #F8F8FF;
             border-radius: 20px;
             
             .favoourites {
