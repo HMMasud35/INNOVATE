@@ -5,22 +5,23 @@
     padding: 100px 0;
 
     .test__wrapper {
+
         h2 {
             font-size: 48px;
             font-weight: 700;
             color: #141135;
             font-family: "Open Sans", serif;
-            margin-bottom: 80px;
+            margin-bottom: 50px;
             text-align: center;
         }
 
         .carousel__part {
-            // box-shadow: 0px 10px 20px #726E9E;
+
             .carousel__btnone {
                 width: 50px;
                 height: 50px;
                 border-radius: 50%;
-                margin-left: -25px;
+                margin-left: -40px;
                 background-color: #141135;
                 display: flex;
                 justify-content: center;
@@ -38,7 +39,7 @@
                 width: 50px;
                 height: 50px;
                 border-radius: 50%;
-                margin-left: 25px;
+                margin-left: 40px;
                 background-color: #141135;
                 display: flex;
                 justify-content: center;
@@ -54,26 +55,31 @@
 
             .carousel-inner {
                 text-align: center;
-                width: 1080px;
                 border-radius: 20px;
                 margin: 0 auto;
+                padding: 30px;
 
                 img {
-                    width: 200px;
-                    height: 200px;
+                    width: 150px;
+                    height: 150px;
                     border-radius: 50%;
                     z-index: 1;
                     position: relative;
+
+                    button {
+
+                    }
                 }
 
                 .card {
-                    margin-top: -120px;
+                    margin-top: -80px;
                     width: 1080px;
                     height: 461px;
                     text-align: center;
                     border: none;
-                    background-color: #F8F8FF;
+                    background-color: #FFFFFF;
                     border-radius: 20px;
+                    box-shadow: 0px 10px 20px #726E9E;
 
                     .favoourites {
                         i {
