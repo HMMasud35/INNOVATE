@@ -508,6 +508,12 @@ header nav button {
   justify-content: center;
   align-items: center;
 }
+#testimonial .test__wrapper .carousel__part .carousel__btnone i {
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
 #testimonial .test__wrapper .carousel__part .carousel__btntow {
   width: 50px;
   height: 50px;
@@ -518,7 +524,7 @@ header nav button {
   justify-content: center;
   align-items: center;
 }
-#testimonial .test__wrapper .carousel__part i {
+#testimonial .test__wrapper .carousel__part .carousel__btntow i {
   font-size: 25px;
   line-height: 30px;
   color: #FFFFFF;
@@ -530,14 +536,14 @@ header nav button {
   border-radius: 20px;
   margin: 0 auto;
 }
-#testimonial .test__wrapper .carousel__part img {
+#testimonial .test__wrapper .carousel__part .carousel-inner img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   z-index: 1;
   position: relative;
 }
-#testimonial .test__wrapper .card {
+#testimonial .test__wrapper .carousel__part .carousel-inner .card {
   margin-top: -120px;
   width: 1080px;
   height: 461px;
@@ -546,15 +552,15 @@ header nav button {
   background-color: #F8F8FF;
   border-radius: 20px;
 }
-#testimonial .test__wrapper .card .favoourites {
+#testimonial .test__wrapper .carousel__part .carousel-inner .card .favoourites i {
   margin-top: 120px;
   font-size: 16px;
   font-weight: 700;
+  line-height: 24px;
   color: #FF7628;
-  font-family: "Open Sans", serif;
   margin-bottom: 35px;
 }
-#testimonial .test__wrapper .card p {
+#testimonial .test__wrapper .carousel__part .carousel-inner .card p {
   font-size: 24px;
   font-weight: 400;
   color: #726E9E;
@@ -564,14 +570,14 @@ header nav button {
   text-align: center;
   margin: 0 auto;
 }
-#testimonial .test__wrapper .card h4 {
+#testimonial .test__wrapper .carousel__part .carousel-inner .card h4 {
   font-size: 25px;
   font-weight: 700;
   color: #221A2c;
   font-family: "Paprika", serif;
   margin-bottom: 10px;
 }
-#testimonial .test__wrapper .card h6 {
+#testimonial .test__wrapper .carousel__part .carousel-inner .card h6 {
   font-size: 16px;
   font-weight: 400;
   color: #726E9E;
