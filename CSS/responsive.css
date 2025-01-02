@@ -100,7 +100,7 @@ header nav button {
 }
 
 #chooseus {
-  height: 480px;
+  height: 700px;
 }
 
 #chooseus .content {
@@ -109,6 +109,7 @@ header nav button {
 
 #chooseus .content .content__left {
   width: auto;
+  margin-right: 15px;
   margin-bottom: 10px;
 }
 
@@ -124,8 +125,13 @@ header nav button {
   width: auto;
 }
 
+#chooseus .content .con__right {
+  text-align: center;
+}
+
 #chooseus .content .con__right h3 {
   font-size: 35px;
+  text-align: center;
 }
 
 #chooseus .content .con__right p {
@@ -133,6 +139,7 @@ header nav button {
   width: auto;
   margin-bottom: 10px;
   line-height: 25px;
+  text-align: center;
 }
 
 #chooseus .content .con__right button {
@@ -140,4 +147,160 @@ header nav button {
   line-height: 15px;
   padding: 10px 10px;
 }
+
+#wedo {
+  width: auto;
+  padding: 40px 0;
+}
+
+#wedo .title {
+  margin-top: 0;
+  text-align: center;
+}
+
+#wedo .title h3 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+  
+}
+
+#wedo .title p {
+  font-size: 18px;
+  line-height: 25px;
+  width: auto;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#wedo .title button {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 10px;
+  
+}
+
+#wedo .item {
+  width: auto;
+  height: 330px;
+  padding: 25px 0;
+  border: none;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+#wedo .item img {
+  margin-bottom: 0px;
+}
+
+#wedo .item h4 {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+#wedo .item p {
+  font-size: 16px;
+  line-height: 25px;
+  width: auto;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+#impact {
+  width: auto;
+  height: 1090px;
+  padding: 40px 0;
+}
+
+#impact .impact__wrapper .imp__title h2 {
+  font-size: 30px;
+}
+
+#impact .impact__wrapper .imp__title p {
+  font-size: 16px;
+  margin-bottom: 40px;
+  width: auto;
+}
+
+#impact .impact__wrapper .imp__text--part .imp__text h4 {
+  font-size: 25px;
+  line-height: 45px;
+}
+
+#impact .impact__wrapper .imp__text--part .imp__text p {
+  font-size: 16px;
+  line-height: 30px;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+#impact .impact__wrapper .impact__img .imp__img1 {
+  left: 20px;
+}
+
+#impact .impact__wrapper .impact__img .imp__img2 {
+  left: 110px;
+}
+
+#impact .impact__wrapper .impact__img .imp__img3 {
+  top: 44px;
+  right: 46px;
+}
+
+#impact .impact__wrapper .impact__img .imp__img4 {
+  top: 90px;
+  right: 125px;
+}
+
+#plan {
+  height: 1810px;
+  padding: 35px 0;
+}
+
+#plan .plan__wrapper h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+#plan .plan__wrapper .plan__card {
+  height: 540px;
+  padding: 30px 0;
+}
+
+#plan .plan__wrapper .row {
+  gap: 20px;
+}
+
+#testimonial .test__wrapper h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+#testimonial .test__wrapper .carousel__part .carousel-inner {
+  padding: 5px;
+}
+
+.carousel-control-prev {
+  left: 12px;
+}
+
+#testimonial .test__wrapper .carousel__part .carousel-inner .card {
+  width: auto;
+  height: 435px;
+}
+
+#testimonial .test__wrapper .carousel__part .carousel-inner .card p {
+  font-size: 16px;
+  margin-bottom: 25px !important;
+  width: auto;
+}
+
+#testimonial .test__wrapper .carousel__part .carousel-inner .card .favoourites i {
+  margin-top: 80px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
 }
