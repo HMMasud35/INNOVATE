@@ -1,0 +1,143 @@
+@media (min-width: 320px) and (max-width: 575px) {
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-toggler {
+    background-color: white;
+  }
+
+  img, svg {
+    width: 80px;
+  }
+
+  header nav {
+    padding: 15px 0 !important;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+  .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+header nav ul {
+  gap: 5px;
+}
+
+header nav ul li {
+  background-color: #6a62c5c5;
+  border: 2px solid #786cfb;
+  border-bottom: 2px solid #000000;
+}
+
+header nav ul li a {
+ line-height: 35px;
+ padding: 10px 100px;
+}
+
+header nav button {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 10px;
+  margin-top: 10px;
+}
+
+#banner .overlay {
+  padding-top: 110px;
+  padding-bottom: 28px;
+}
+
+#banner .shapeone {
+  top: 100px;
+  left: 0;
+}
+
+#banner .shapetow {
+  bottom: 0;
+  right: 0;
+}
+
+#banner .overlay h1 {
+  font-size: 40px;
+  line-height: 150%;
+  margin-bottom: 10px;
+}
+
+#banner .overlay p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#banner .overlay button {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 10px;
+  position: relative;
+}
+
+#count {
+  height: 615px;
+  padding: 40px 0;
+}
+
+#count .content__part {
+  border-bottom: 3px solid rgba(79, 88, 95, 0.3098039216);
+  margin-bottom: 20px;
+}
+
+#count .content h3 {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+#count .content p {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+#chooseus {
+  height: 480px;
+}
+
+#chooseus .content {
+  padding-top: 30px;
+}
+
+#chooseus .content .content__left {
+  width: auto;
+  margin-bottom: 10px;
+}
+
+#chooseus .content .content__left:hover {
+  padding: 10px 10px;
+  box-shadow: -5px -5px 10px rgba(211, 211, 211, 0.748), 5px 5px 5px 5px rgba(94, 104, 121, 0.3);
+  margin-left: 0;
+}
+
+#chooseus .content .content__left h4 {
+  font-size: 16px;
+  line-height: 25px;
+  width: auto;
+}
+
+#chooseus .content .con__right h3 {
+  font-size: 35px;
+}
+
+#chooseus .content .con__right p {
+  font-size: 14px;
+  width: auto;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+#chooseus .content .con__right button {
+  font-size: 16px;
+  line-height: 15px;
+  padding: 10px 10px;
+}
+}
