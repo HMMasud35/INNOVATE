@@ -80,27 +80,37 @@ header nav button {
 }
 
 #count {
-  height: 615px;
+  height: 500px;
   padding: 40px 0;
+}
+
+#count .count__img {
+  width: 300px;
 }
 
 #count .content__part {
   border-bottom: 3px solid rgba(79, 88, 95, 0.3098039216);
+  border-right: none;
   margin-bottom: 20px;
+  position: relative;
 }
 
 #count .content h3 {
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 40px;
+  line-height: 40px;
 }
 
 #count .content p {
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 #chooseus {
-  height: 700px;
+  height: 720px;
+}
+
+#chooseus .choo__img {
+  width: 300px;
 }
 
 #chooseus .content {
@@ -127,6 +137,7 @@ header nav button {
 
 #chooseus .content .con__right {
   text-align: center;
+  margin-top: 20px;
 }
 
 #chooseus .content .con__right h3 {
@@ -137,7 +148,7 @@ header nav button {
 #chooseus .content .con__right p {
   font-size: 14px;
   width: auto;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   line-height: 25px;
   text-align: center;
 }
@@ -208,8 +219,12 @@ header nav button {
 
 #impact {
   width: auto;
-  height: 1090px;
+  height: 980px;
   padding: 40px 0;
+}
+
+#impact .impact__element {
+  width: 150px;
 }
 
 #impact .impact__wrapper .imp__title h2 {
@@ -223,8 +238,8 @@ header nav button {
 }
 
 #impact .impact__wrapper .imp__text--part .imp__text h4 {
-  font-size: 25px;
-  line-height: 45px;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 #impact .impact__wrapper .imp__text--part .imp__text p {
@@ -255,7 +270,7 @@ header nav button {
 }
 
 #plan {
-  height: 1810px;
+  height: 1440px;
   padding: 35px 0;
 }
 
@@ -265,12 +280,41 @@ header nav button {
 }
 
 #plan .plan__wrapper .plan__card {
-  height: 540px;
-  padding: 30px 0;
+  height: 410px;
+  padding: 25px 0;
 }
 
 #plan .plan__wrapper .row {
   gap: 20px;
+}
+
+#plan .plan__wrapper .plan__card h3 {
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+#plan .plan__wrapper .plan__card .plan__img {
+  height: 135px;
+}
+
+#plan .plan__wrapper .plan__card .plan__body {
+  margin-top: 5px;
+}
+
+#plan .plan__wrapper .plan__card .plan__body h4 {
+  font-size: 35px;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+
+#plan .plan__wrapper .plan__card .plan__body sup {
+  font-size: 25px;
+}
+
+#testimonial {
+  height: 670px;
+  padding: 40px 0;
 }
 
 #testimonial .test__wrapper h2 {
@@ -283,7 +327,15 @@ header nav button {
 }
 
 .carousel-control-prev {
-  left: 12px;
+  left: 10px;
+}
+
+#testimonial .test__wrapper .carousel__part .carousel__btnone {
+  margin-left: -5px;
+}
+
+#testimonial .test__wrapper .carousel__part .carousel__btntow {
+  margin-left: -15px;
 }
 
 #testimonial .test__wrapper .carousel__part .carousel-inner .card {
@@ -302,5 +354,117 @@ header nav button {
   font-size: 16px;
   margin-bottom: 15px;
 }
+
+#blog {
+  height: 1630px;
+  padding: 50px 0;
+}
+
+#blog .blog__wrapper {
+  width: auto;
+  padding: 0 10px;
+}
+
+#blog .blog__wrapper h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #030314;
+  font-family: "Open Sans", serif;
+  margin-bottom: 30px;
+}
+
+
+
+#blog .blog__wrapper .blog__video {
+  max-width: 100%;
+}
+
+#blog .blog__wrapper .blog__item {
+  text-align: center;
+  margin-top: -25px;
+}
+
+.blog__item ul {
+  display: block !important;
+  text-align: center;
+}
+
+.blog__item ul li {
+  background-color: #dbd8fa;
+  border-bottom: 2px solid rgb(188, 187, 187);
+}
+
+#blog .blog__wrapper .blog__item a {
+  color: #7c72e7;
+}
+
+#blog .blog__wrapper .blog__item li:hover a {
+  color: #1bbf00;
+}
+
+#blog .blog__wrapper .blog__item h3 {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  line-height: 25px;
+}
+
+#blog .blog__wrapper .blog__item .blog__linkbtn {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+#footer {
+  height: 555px;
+  padding: 50px 0 30px 0;
+}
+
+#footer .footer__top p {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 140%;
+  width: auto;
+  text-align: justify;
+}
+
+#footer .footer__top .footer__item h5 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40%;
+}
+
+#footer .footer__top .footer__item {
+  margin-top: 10px;
+}
+
+#footer .footer__top .footer__item li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#footer .footer__top .footer__item li a {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30%;
+}
+
+#footer .footer__bottom {
+  display: block !important ;
+}
+
+#footer .footer__bottom p {
+  font-size: 16px;
+}
+
+#footer .footer__bottom li {
+  margin-left: 38px;
+}
+
+#footer .footer__bottom li a {
+  font-size: 14px;
+}
+
 
 }

@@ -84,7 +84,7 @@ header nav button {
   font-family: "Paprika", serif;
   max-width: 715px;
   margin: 0 auto;
-  margin-bottom: 16px;
+  margin-bottom: 60px;
 }
 #banner .overlay button {
   font-size: 20px;
@@ -111,10 +111,9 @@ header nav button {
   overflow: hidden;
 }
 #count .count__img {
-  max-width: 100%;
-  height: 429px;
+  width: 450px;
   top: 0;
-  right: -145px;
+  right: -150px;
   position: absolute;
 }
 #count .content__part {
@@ -149,6 +148,7 @@ header nav button {
 }
 #chooseus .choo__img {
   position: absolute;
+  max-width: 100%;
   top: 0;
   left: 0;
   z-index: -1;
@@ -160,7 +160,7 @@ header nav button {
 #chooseus .content .content__left {
   border-radius: 12px;
   transition: 0.4s;
-  width: 568px;
+  max-width: 568px;
   margin-bottom: 30px;
 }
 #chooseus .content .content__left:hover {
@@ -190,7 +190,7 @@ header nav button {
   line-height: 30px;
   color: #474179;
   font-family: "Paprika", serif;
-  width: 340px;
+  max-width: 340px;
 }
 #chooseus .content .con__right h3 {
   font-size: 48px;
@@ -202,9 +202,10 @@ header nav button {
 #chooseus .content .con__right p {
   font-size: 18px;
   font-weight: 400;
+  line-height: 30px;
   color: #474179;
   font-family: "Paprika", serif;
-  width: 393px;
+  max-width: 393px;
   margin-bottom: 41px;
 }
 #chooseus .content .con__right button {
@@ -247,7 +248,7 @@ header nav button {
   line-height: 32px;
   color: #6c7d93;
   font-family: "Open Sans", serif;
-  width: 345px;
+  max-width: 345px;
   margin-bottom: 56px;
 }
 #wedo .title button {
@@ -295,7 +296,7 @@ header nav button {
   line-height: 30px;
   font-family: "Paprika", serif;
   color: #726E9E;
-  width: 288px;
+  max-width: 288px;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -344,6 +345,7 @@ header nav button {
   position: relative;
 }
 #impact .impact__element {
+  width: 380px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -361,7 +363,7 @@ header nav button {
   line-height: 30px;
   font-family: "Paprika", serif;
   color: #726e9e;
-  width: 558px;
+  max-width: 558px;
   margin: 0 auto;
   margin-top: 23px;
   margin-bottom: 75px;
@@ -384,7 +386,7 @@ header nav button {
   line-height: 30px;
   font-family: "Paprika", serif;
   color: #726e9e;
-  width: 343px;
+  max-width: 343px;
   margin-top: 23px;
   margin-bottom: 75px;
 }
@@ -459,7 +461,7 @@ header nav button {
   margin-bottom: 15px;
 }
 #plan .plan__wrapper .plan__card .plan__body sup {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 25px;
   color: #1bbf00;
@@ -471,7 +473,7 @@ header nav button {
   line-height: 32px;
   color: #726E9E;
   font-family: "Paprika", serif;
-  width: 252px;
+  max-width: 252px;
 }
 #plan .plan__wrapper .plan__card:hover {
   background-color: #6B62C5;
@@ -517,7 +519,7 @@ header nav button {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin-left: 40px;
+  margin-left: 20px;
   background-color: #141135;
   display: flex;
   justify-content: center;
@@ -544,7 +546,7 @@ header nav button {
 }
 #testimonial .test__wrapper .carousel__part .carousel-inner .card {
   margin-top: -80px;
-  width: 1080px;
+  max-width: 1080px;
   height: 461px;
   text-align: center;
   border: none;
@@ -566,7 +568,7 @@ header nav button {
   color: #726E9E;
   font-family: "Paprika", serif;
   margin-bottom: 48px !important;
-  width: 800px;
+  max-width: 800px;
   text-align: center;
   margin: 0 auto;
 }
@@ -597,7 +599,7 @@ header nav button {
   left: 0;
 }
 #blog .blog__wrapper {
-  width: 982px;
+  max-width: 982px;
   margin: 0 auto;
 }
 #blog .blog__wrapper h2 {
@@ -609,7 +611,7 @@ header nav button {
   margin-bottom: 65px;
 }
 #blog .blog__wrapper .blog__video {
-  width: 380px;
+  max-width: 380px;
   height: 220px;
   background-color: #C4C4C4;
   border-radius: 15px;

@@ -5,6 +5,7 @@
     position: relative;
 
     .impact__element {
+        width: 380px;
         position: absolute;
         right: 0;
         bottom: 0;
@@ -27,7 +28,7 @@
                 line-height: 30px;
                 font-family: "Paprika", serif;
                 color: #726e9e;
-                width: 558px;
+                max-width: 558px;
                 margin: 0 auto;
                 margin-top: 23px;
                 margin-bottom: 75px;
@@ -56,7 +57,7 @@
                     line-height: 30px;
                     font-family: "Paprika", serif;
                     color: #726e9e;
-                    width: 343px;
+                    max-width: 343px;
                     margin-top: 23px;
                     margin-bottom: 75px;
                 }
