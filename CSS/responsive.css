@@ -107,7 +107,7 @@ header nav button {
 }
 
 #chooseus {
-  height: 720px;
+  height: 580px;
 }
 
 #chooseus .choo__img {
@@ -115,7 +115,7 @@ header nav button {
 }
 
 #chooseus .content {
-  padding-top: 30px;
+  padding: 50px 0;
 }
 
 #chooseus .content .content__left {
@@ -149,9 +149,8 @@ header nav button {
 #chooseus .content .con__right p {
   font-size: 14px;
   width: auto;
-  margin-bottom: 25px;
   line-height: 25px;
-  text-align: center;
+  margin: 15px auto;
 }
 
 #chooseus .content .con__right button {
@@ -183,6 +182,7 @@ header nav button {
   width: auto;
   margin-bottom: 15px;
   text-align: center;
+  margin: 15px auto;
 }
 
 #wedo .title button {
@@ -252,11 +252,17 @@ header nav button {
   position: relative;
 }
 
+#impact .impact__wrapper .impact__img {
+  width: 295px;
+}
+
 #impact .impact__wrapper .impact__img .imp__img1 {
+  width: 40%;
   left: 20px;
 }
 
 #impact .impact__wrapper .impact__img .imp__img2 {
+  width: 40%;
   left: 110px;
 }
 
@@ -266,6 +272,7 @@ header nav button {
 }
 
 #impact .impact__wrapper .impact__img .imp__img4 {
+  width: 40%;
   top: 90px;
   right: 125px;
 }
