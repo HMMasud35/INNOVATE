@@ -46,6 +46,10 @@ header nav button {
   margin-top: 10px;
 }
 
+#banner {
+  height: auto;
+}
+
 #banner .overlay {
   padding-top: 110px;
   padding-bottom: 28px;
@@ -81,8 +85,8 @@ header nav button {
 }
 
 #count {
-  height: 500px;
-  padding: 40px 0;
+  height: auto;
+  padding: 50px 0;
 }
 
 #count .count__img {
@@ -90,10 +94,9 @@ header nav button {
 }
 
 #count .content__part {
-  border-bottom: 3px solid rgba(79, 88, 95, 0.3098039216);
-  border-right: none;
-  margin-bottom: 20px;
+  border-right: 1px solid rgba(79, 88, 95, 0.3098039216);
   position: relative;
+  margin-bottom: 10px;
 }
 
 #count .content h3 {
@@ -139,7 +142,6 @@ header nav button {
 #chooseus .content .con__right {
   text-align: center;
   margin-top: 20px;
-  /* padding: 20px 0; */
 }
 
 #chooseus .content .con__right h3 {
@@ -161,7 +163,7 @@ header nav button {
 }
 
 #wedo {
-  width: auto;
+  height: auto;
   padding: 40px 0;
 }
 
@@ -220,9 +222,9 @@ header nav button {
 }
 
 #impact {
-  width: auto;
-  height: 980px;
-  padding: 40px 0;
+  height: auto;
+  padding: 40px 0 250px 0;
+  /*  */
 }
 
 #impact .impact__element {
@@ -259,27 +261,30 @@ header nav button {
 
 #impact .impact__wrapper .impact__img .imp__img1 {
   width: 40%;
-  left: 20px;
+  top: 0;
 }
 
 #impact .impact__wrapper .impact__img .imp__img2 {
   width: 40%;
-  left: 110px;
+  left: 125px;
+  top: 0;
 }
 
 #impact .impact__wrapper .impact__img .imp__img3 {
-  top: 44px;
-  right: 46px;
+  width: 35%;
+  top: 35px;
+  right: 0;
+  
 }
 
 #impact .impact__wrapper .impact__img .imp__img4 {
-  width: 40%;
-  top: 90px;
-  right: 125px;
+  width: 50%;
+  top: 102px;
+  right: 50px;
 }
 
 #plan {
-  height: 1440px;
+  height: auto;
   padding: 35px 0;
 }
 
@@ -300,7 +305,7 @@ header nav button {
 #plan .plan__wrapper .plan__card h3 {
   font-size: 25px;
   line-height: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 #plan .plan__wrapper .plan__card .plan__img {
@@ -322,7 +327,7 @@ header nav button {
 }
 
 #testimonial {
-  height: 670px;
+  height: auto;
   padding: 40px 0;
 }
 
@@ -365,8 +370,8 @@ header nav button {
 }
 
 #blog {
-  height: 1630px;
-  padding: 50px 0;
+  height: auto;
+  padding: 50px 0 1px 0;
 }
 
 #blog .blog__wrapper {
@@ -426,8 +431,8 @@ header nav button {
 }
 
 #footer {
-  height: 555px;
-  padding: 50px 0 30px 0;
+  height: auto;
+  padding: 50px 0 5px 0;
 }
 
 #footer .footer__top p {
@@ -436,6 +441,10 @@ header nav button {
   line-height: 140%;
   width: auto;
   text-align: justify;
+}
+
+#footer .footer__top .footer__item {
+  gap: 20px;
 }
 
 #footer .footer__top .footer__item h5 {
