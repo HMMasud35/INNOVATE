@@ -197,7 +197,7 @@ header nav button {
 
 #wedo .item {
   width: auto;
-  height: 330px;
+  height: auto;
   padding: 25px 0;
   border: none;
   border-radius: 20px;
@@ -214,11 +214,9 @@ header nav button {
 }
 
 #wedo .item p {
-  font-size: 16px;
-  line-height: 25px;
-  width: auto;
-  margin: 0 auto;
-  padding: 20px 0;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 100%;
 }
 
 #impact {
@@ -257,6 +255,8 @@ header nav button {
 
 #impact .impact__wrapper .impact__img {
   width: 295px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 #impact .impact__wrapper .impact__img .imp__img1 {
@@ -294,8 +294,8 @@ header nav button {
 }
 
 #plan .plan__wrapper .plan__card {
-  height: 410px;
-  padding: 25px 0;
+  height: auto;
+  padding: 30px 0;
 }
 
 #plan .plan__wrapper .row {
@@ -305,15 +305,16 @@ header nav button {
 #plan .plan__wrapper .plan__card h3 {
   font-size: 25px;
   line-height: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 #plan .plan__wrapper .plan__card .plan__img {
-  height: 135px;
+  width: 100%;
+  height: auto;
 }
 
 #plan .plan__wrapper .plan__card .plan__body {
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 #plan .plan__wrapper .plan__card .plan__body h4 {
@@ -324,6 +325,10 @@ header nav button {
 
 #plan .plan__wrapper .plan__card .plan__body sup {
   font-size: 25px;
+}
+
+#plan .plan__wrapper .plan__card .plan__body p {
+  max-width: 100%;
 }
 
 #testimonial {
@@ -340,6 +345,11 @@ header nav button {
   padding: 5px;
 }
 
+#testimonial .test__wrapper .carousel__part .carousel-inner .card {
+  width: auto;
+  height: auto;
+}
+
 .carousel-control-prev {
   left: 10px;
 }
@@ -350,11 +360,6 @@ header nav button {
 
 #testimonial .test__wrapper .carousel__part .carousel__btntow {
   margin-left: -15px;
-}
-
-#testimonial .test__wrapper .carousel__part .carousel-inner .card {
-  width: auto;
-  height: 435px;
 }
 
 #testimonial .test__wrapper .carousel__part .carousel-inner .card p {
@@ -386,6 +391,7 @@ header nav button {
   color: #030314;
   font-family: "Open Sans", serif;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 
@@ -410,7 +416,8 @@ header nav button {
 }
 
 #blog .blog__wrapper .blog__item a {
-  color: #7c72e7;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 #blog .blog__wrapper .blog__item li:hover a {
@@ -475,6 +482,10 @@ header nav button {
 #footer .footer__bottom p {
   font-size: 16px;
   text-align: center;
+}
+
+#footer .footer__bottom ul li a {
+  align-items: center;
 }
 
 #footer .footer__bottom li {
