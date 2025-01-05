@@ -621,8 +621,12 @@ header nav button {
 #blog .blog__wrapper .blog__video {
   max-width: 380px;
   height: 220px;
-  background-color: #C4C4C4;
+}
+#blog .blog__wrapper .blog__video iframe {
+  width: 100%;
+  height: 100%;
   border-radius: 15px;
+  border: 10px solid #000000;
 }
 #blog .blog__wrapper .blog__item a {
   font-size: 16px;
