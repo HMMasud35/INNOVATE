@@ -156,8 +156,7 @@ header nav button {
   z-index: -1;
 }
 #chooseus .content {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 #chooseus .content .content__left {
   border-radius: 12px;
