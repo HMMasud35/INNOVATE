@@ -499,21 +499,13 @@
 /* Responsive 576-767 start */
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .navbar-toggler:focus {
-    box-shadow: none;
-  }
-
-  .navbar-toggler {
-    background-color: white;
-  }
-
   img, 
   svg {
     width: 80px;
   }
 
   header nav {
-    padding: 5px 0 !important;
+    padding: 10px 0 !important;
   }
 
   .navbar-collapse {
@@ -525,25 +517,24 @@
     padding-bottom: 0;
   }
 
-  /* header nav ul {
+  header nav ul {
     gap: 5px;
   }
 
-  header nav ul li {
-    background-color: #6a62c5c5;
-    border: 2px solid #786cfb;
-    border-bottom: 2px solid #000000;
+  header nav ul li {  
+    margin-left: 25px;
   }
 
   header nav ul li a {
+    font-size: 16px;
     line-height: 35px;
-    padding: 10px 100px;
-  } */
+    font-weight: 500;
+  }
 
   header nav button {
-    font-size: 16px;
-    line-height: 20px;
-    padding: 10px 10px;
+    font-size: 14px;
+    line-height: 15px;
+    padding: 8px 8px;
     margin-top: 10px;
   }
 
