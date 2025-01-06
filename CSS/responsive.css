@@ -508,10 +508,6 @@
     padding: 10px 0 !important;
   }
 
-  .navbar-collapse {
-    text-align: center;
-  }
-
   .navbar-brand {
     padding-top: 0;
     padding-bottom: 0;
@@ -521,18 +517,14 @@
     gap: 5px;
   }
 
-  header nav ul li {  
-    margin-left: 25px;
-  }
-
-  header nav ul li a {
-    font-size: 16px;
-    line-height: 35px;
-    font-weight: 500;
-  }
+header nav ul li a {
+  font-size: 14px;
+  font-weight: 400;
+}
 
   header nav button {
     font-size: 14px;
+    font-weight: 400;
     line-height: 15px;
     padding: 8px 8px;
     margin-top: 10px;
@@ -560,8 +552,10 @@
   #banner .overlay h1 {
     font-size: 40px;
     line-height: 150%;
+    width: 500px;
+    margin: 0 auto;
     margin-bottom: 10px;
-  }
+}
 
   #banner .overlay p {
     font-size: 18px;
@@ -577,9 +571,9 @@
   }
 
   #count {
-    height: auto;
-    padding: 50px 0;
-  }
+    height: 400px;
+    padding: 160px 0;
+}
 
   #count .count__img {
     width: 300px;
@@ -603,6 +597,7 @@
 
   #chooseus {
     height: auto;
+    padding: 10px;
   }
 
   #chooseus .choo__img {
@@ -782,13 +777,17 @@
     margin-bottom: 25px;
   }
 
+#plan .plan__card-col {
+  margin-top: 20px;
+}
+
   #plan .plan__wrapper .plan__card {
     height: auto;
     padding: 30px 0;
   }
 
   #plan .plan__wrapper .row {
-    gap: 20px;
+    gap: 0px;
   }
 
   #plan .plan__wrapper .plan__card h3 {
@@ -852,10 +851,15 @@
   }
 
   #testimonial .test__wrapper .carousel__part .carousel-inner .card p {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 25px !important;
-    width: auto;
-  }
+    width: 400px;
+    line-height: 35px;
+}
+
+#testimonial .test__wrapper .carousel__part .carousel-inner .card h6 {
+  padding: 10px 0;
+}
 
   #testimonial .test__wrapper .carousel__part .carousel-inner .card .favoourites i {
     margin-top: 80px;
@@ -887,7 +891,7 @@
 
   #blog .blog__wrapper .blog__video {
     max-width: 100%;
-    height: 300px;
+    height: 400px;
 }
 
   #blog .blog__wrapper .blog__item {
@@ -896,11 +900,13 @@
   }
 
   #blog .blog__wrapper .blog__item h3 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
+    width: 400px;
     text-align: center;
-    line-height: 25px;
-  }
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
 
   #blog .blog__wrapper .blog__item .blog__linkbtn {
     font-size: 16px;
