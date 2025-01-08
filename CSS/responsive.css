@@ -500,13 +500,25 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
 
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-toggler {
+    background-color: white;
+  }
+
   img,
   svg {
     width: 80px;
   }
 
   header nav {
-    padding: 10px 0 !important;
+    padding: 15px 0 !important;
+  }
+
+  .navbar-collapse {
+    text-align: center;
   }
 
   .navbar-brand {
@@ -518,18 +530,24 @@
     gap: 5px;
   }
 
+  header nav ul li {
+    background-color: #6a62c5c5;
+    border: 2px solid #786cfb;
+    border-bottom: 2px solid #000000;
+  }
+
   header nav ul li a {
-    font-size: 14px;
-    font-weight: 400;
+    line-height: 35px;
+    padding: 10px 100px;
   }
 
   header nav button {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 15px;
-    padding: 8px 8px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 10px;
     margin-top: 10px;
   }
+
 
   #banner {
     height: auto;
